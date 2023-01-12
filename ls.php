@@ -1,3 +1,4 @@
+<?php
 $a=$_GET['dir'];
 if ($handle = opendir($a)) {
 
@@ -11,3 +12,4 @@ if ($handle = opendir($a)) {
 
     closedir($handle);
 }
+?>
