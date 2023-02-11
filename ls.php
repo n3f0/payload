@@ -1,7 +1,8 @@
+<pre>
 <?php
 $a=$_GET['dir'];
 if ($handle = opendir($a)) {
-?><pre><?php
+
     while (false !== ($entry = readdir($handle))) {
 
         if ($entry != "." && $entry != "..") {
