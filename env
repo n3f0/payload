@@ -1,7 +1,7 @@
 APP_NAME=Laravel
-APP_ENV=production
+APP_ENV=develop
 APP_KEY=base64:cWx+P+3KViyogHVP8V71HmhwnDGYb/ynLGOo3cunmB0=
-APP_DEBUG=false
+APP_DEBUG=true
 APP_LOG_LEVEL=debug
 APP_URL=https://localhost
 
