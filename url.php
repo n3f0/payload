@@ -1,4 +1,4 @@
-<?
+<?php
 	error_reporting (E_ALL ^ E_NOTICE); 
     function encode($string){
         return base64_encode($string);
