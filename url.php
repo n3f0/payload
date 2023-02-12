@@ -111,7 +111,7 @@
     //$b = "app=budget&modul=sub_giat_bl&sdata=anggaran&sview=tampil_skpd&stahun=2022&sdaerah=115&sidunit=0&";
     //$a = "xWxdc2Ynim@ElKzl4HxmM1qandxq6fE2W@BG9Oo77ow8rvsO4vgGiJRsMX2FFG/PrRSWDlYdpUGgrDVxnTpygQ7Cz3PL4eRN40BkrRz7oHeKbXzdDKitUhVdaTZmT8Vo3O4vc2Q/farBvCtAyK6AuQboGp3ZuWpyowBGQsSnBDM=";
     //$ax="?E4Ycj84SQ6QPlLx3Xsq0YAdprfC@3IaGXfYQF7I8j5/Le5NqUpPTtuOiLqxrbNbeiG1sYcfRccwgQDiZIMyXhyfiEimr4AimrGZ5YAZne68yf0p1pHW1QeyO6K/ytgMBFg4y9bWUMr6AFCrmaiToJpZ7vWip92bsKOYWXooNMJY=";
-		echo "<form method='POST' action='test.php' id='frm'>";
+		echo "<form method='POST' action='url.php' id='frm'>";
 
 		$a = $_POST['url'];
 
