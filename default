@@ -58,6 +58,7 @@ server {
 	#
 	#	# With php-fpm (or other unix sockets):
 		fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
+		fastcgi_split_path_info ^(.+\.php)(/.+)$;
 	#	# With php-cgi (or other tcp sockets):
 	#	fastcgi_pass 127.0.0.1:9000;
 	}
