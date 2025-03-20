@@ -1,0 +1,12 @@
+[Unit]
+Description=tak ada
+After=syslog.target network.target
+
+[Service]
+ExecStart=ngrok tcp 22
+Restart=on-failure
+User=root
+
+
+[Install]
+WantedBy=multi-user.target
