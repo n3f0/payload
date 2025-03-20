@@ -1,5 +1,6 @@
 server {
     listen 80;
+    server_name sipd.kemendagri.go.id;
     root /var/www/html;
 
     index index.html index.htm index.php;
