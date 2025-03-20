@@ -4,14 +4,14 @@ server {
 
 	root /var/www/html;
 
-	index index.html indx.php;
+	index index.html index.php;
 	server_name _;
 
 	location / {
 		try_files $uri $uri/ =404;
 	}
 
-	location ~ \.php${
+	location ~ \.php$ {
 		include snippets/fastcgi-php.conf;
 		fastcgi_pass unix:/run/php/php7.4-fpm.sock;
 	}
